@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> OOCSS Example</title>
+<style>
+body{
+  background: #abcabc;
+}
+  .btn{
+    width: 80%;
+    height: 70px;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+  }
+
+.btn-grey{
+  color: grey;
+  background: blue;
+  border: 3px solid red;
+  font-size: 20px;
+}
+
+.btn-blue{
+  color: black;
+  background: lightblue;
+  border: 3px solid red;
+  font-size: 20px;
+}
+
+.to-do{
+  background: pink;
+  color: black;
+}
+
+.first-to-do-item{
+  color: white;
+}
+
+</style>
+  </head>
+  <body>
+<!--OCSS Principal 1: separting structure (layout of the element) from skin (style)-->
+    <button class="btn btn-grey">OOCSS</button>
+    <button class="btn btn-blue">OOCSS</button>
+<!--OCSS Principal 2: separting container from content-->
+  <ul class="to-do">
+    <li class="first-to-do-item">Home</li>
+    <li>About</li>
+    <li>News</li>
+    <li>Contact</li>
+  </ul>
+
+
+
+
+  </body>
+</html>
